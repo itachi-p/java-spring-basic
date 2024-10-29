@@ -5,7 +5,9 @@
 - Javaそのものの復習はスルー
 - Spring(Boot)入門に範囲を絞って進める
 - 環境構築になるべくコストを払わない
-  - 20年ぶりにEcripseを使うより、既にあるVSCodeで進める
+  - ~~20年ぶりにEcripseを使うより、既にあるVSCodeで進める~~
+  - 研修では主にEclipse(STS含む)を使用する為、VSCodeよりEclipseに慣れておく
+  - Servlet & JSP 初心者研修の延長としてSpringを学ぶので、JSPと競合するThymeleafには触れない方針
 
 ### 参考サイト/学習教材候補
 
@@ -32,3 +34,4 @@
 - VSCodeのコマンドパレットから`Spring initializr`で自動生成されるdemoフォルダの実行で、デフォルトのWhitelabel Error Page表示を確認
   - `application.properties`に追記し、ポート番号をデフォルトの8080から8081に変更
   - 上記に`templates/index.html`と`HomeController.java`を加え、ブラウザからlocalhost:8081でindexページ表示を確認
+  - 設定を変更し、JSPと競合するThymeleafを削除しJSPの動的コンテンツが正常に動作することを確認
