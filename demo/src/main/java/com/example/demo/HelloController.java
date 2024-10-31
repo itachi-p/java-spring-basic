@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HelloController {
     @GetMapping("/hello")
     public String hello() {
-        return "hello"; // hello.jpsに対応（拡張子は不要）
+        return "hello"; // hello.jspに対応（拡張子は不要）
     }
 }

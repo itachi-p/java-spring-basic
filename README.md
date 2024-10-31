@@ -7,12 +7,13 @@
 - 環境構築になるべくコストを払わない
   - ~~20年ぶりにEcripseを使うより、既にあるVSCodeで進める~~
   - 研修では主にEclipse(STS含む)を使用する為、VSCodeよりEclipseに慣れておく
-  - Servlet & JSP 初心者研修の延長としてSpringを学ぶので、JSPと競合するThymeleafには触れない方針
+  - MacbookProを捨ててまでWindows環境に合わせることはしない。違いは最初の環境構築段階だけ。
+  - Servlet & JSP 初心者研修の延長としてSpringを学ぶので、JSPと競合する**Thymeleafには触れない**方針
 
 ### 参考サイト/学習教材候補
 
 - [Spring公式日本語ガイド](https://spring.pleiades.io/guides/gs/guides-with-vscode)
-  - 基本はEcripseを使う前提のようだが、VSCode対応版もありそう
+  - 基本はEcripseを使う前提だが、VSCode対応版もあり
 - [macchinetta](https://macchinetta.github.io/server-guideline-thymeleaf/current/ja/index.html)
   - Spring Bootそのものではないが、勉強になりそう
 - [後悔しないためのSpring Boot 入門書：Spring 解体新書（第2版）](https://www.amazon.co.jp/dp/B08XPBPH9C)
