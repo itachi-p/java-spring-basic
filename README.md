@@ -35,3 +35,4 @@
   - `application.properties`に追記し、ポート番号をデフォルトの8080から8081に変更
   - 上記に`templates/index.html`と`HomeController.java`を加え、ブラウザからlocalhost:8081でindexページ表示を確認
   - 設定を変更し、JSPと競合するThymeleafを削除しJSPの動的コンテンツが正常に動作することを確認
+  - IDEとしてVSCodeから主にEclipse2023を使うように変更
